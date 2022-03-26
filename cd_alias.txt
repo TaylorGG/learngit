@@ -1,0 +1,4 @@
+if .cshrc:
+    alias cd 'cd \!* ; ls'
+elif .bash:
+    alias cd="cd $1; ls "
